@@ -12,3 +12,7 @@
 - Start docker compose `docker-compose up`
 - Go to your laravel folder again `cd yourfolder`
 - Generate key for laravel app `docker-compose exec app php artisan key:generate`
+- `docker-compose exec app php artisan migrate`
+- In root folder
+`docker-compose run --rm node npm install`
+`docker-compose run --rm node npm run dev`
